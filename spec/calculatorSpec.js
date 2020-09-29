@@ -104,7 +104,7 @@ describe('Calculator', () => {
          it('should throw an error', () => {
           const calculator = new Calculator();
 
-          expect(() => calculator.divide(2, 0)).toThrow();
+          expect(() => calculator.divide(12, 0)).toThrow();
         });
       });
       
